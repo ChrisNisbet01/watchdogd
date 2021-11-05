@@ -1,0 +1,11 @@
+#WATCHDOGD configuration
+
+menu "Options"
+	depends on PACKAGE_watchdogd
+
+config WATCHDOGD_DEBUG
+	bool "Enable debug output"
+	default n
+
+endmenu
+
